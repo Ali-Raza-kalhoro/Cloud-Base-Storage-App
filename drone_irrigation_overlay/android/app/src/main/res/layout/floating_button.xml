@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <!-- Camera button in center -->
+    <Button
+        android:id="@+id/overlay_button"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="📸"
+        android:textSize="32sp"
+        android:gravity="center"
+        android:background="@android:color/transparent"
+        android:padding="10dp"/>
+
+    <!-- Close button over camera button -->
+    <TextView
+        android:id="@+id/close_button"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:text="✕"
+        android:textSize="12sp"
+        android:textColor="#FF0000"
+        android:gravity="center"
+        android:background="@android:color/transparent"
+        android:layout_alignTop="@id/overlay_button"
+        android:layout_alignEnd="@id/overlay_button"
+        android:layout_marginEnd="-8dp"
+        android:layout_marginTop="-8dp"/>
+</RelativeLayout>

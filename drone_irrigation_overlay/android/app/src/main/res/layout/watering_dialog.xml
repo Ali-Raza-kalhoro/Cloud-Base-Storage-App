@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/plantNameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Plant: Rose"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/healthText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Health: Healthy"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/waterText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Water Needed: 500ml"
+        android:textSize="16sp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#2196F3" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Irrigation Line:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp" />
+
+
+    <Button
+        android:id="@+id/line1Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Line 1 - Small Plants"
+        android:layout_marginBottom="8dp"
+        android:background="#4CAF50"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/line2Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Line 2 - Medium Plants"
+        android:layout_marginBottom="8dp"
+        android:background="#2196F3"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/line3Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Line 3 - Large Plants"
+        android:layout_marginBottom="20dp"
+        android:background="#FF9800"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:background="#F44336"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
