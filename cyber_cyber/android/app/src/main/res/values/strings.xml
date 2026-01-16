@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cyber Shield</string>
+    <string name="accessibility_service_description">Cyber Shield needs accessibility permission to monitor messages for security threats and protect you from scams.</string>
+    <string name="notification_listener_description">Monitor notifications for spam detection</string>
+    <string name="default_notification_channel_id">cyber_shield_channel</string>
+    <string name="default_notification_channel_name">Security Alerts</string>
+    <string name="welcome_message">Your device is being protected by Cyber Shield</string>
+    <string name="threat_detected">Security threat detected</string>
+    <string name="block_button">BLOCK</string>
+    <string name="ignore_button">IGNORE</string>
+
+    <!-- Add these for better functionality -->
+    <string name="spam_email_detected">Spam Email Detected!</string>
+    <string name="spam_whatsapp_detected">Spam WhatsApp Detected!</string>
+    <string name="unsafe_wifi_detected">Unsafe WiFi Detected!</string>
+    <string name="alert_sound">Alert Sound</string>
+</resources>
